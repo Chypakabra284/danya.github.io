@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой сайт</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать!</h1>
+        <p>Это мой личный сайт 🚀</p>
+    </header>
+
+    <nav>
+        <button onclick="showSection('home')">Главная</button>
+        <button onclick="showSection('about')">Обо мне</button>
+        <button onclick="showSection('contacts')">Контакты</button>
+    </nav>
+
+    <main>
+
+        <section id="home" class="active">
+            <h2>Главная страница</h2>
+            <p>Я лох.</p>
+        </section>
+
+        <section id="about">
+            <h2>Обо мне</h2>
+            <p>Напиши здесь информацию о себе.</p>
+        </section>
+
+        <section id="contacts">
+            <h2>Контакты</h2>
+            <p>Telegram: @yourname</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Мой сайт</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
